@@ -25,7 +25,7 @@ body {
   border-bottom: 1px solid #ddd;
 }
 
-#dropdown .menu-item a {
+#dropdown .menu-item label {
   display: block;
   padding: 10px 15px;
   color: #007bff;
@@ -90,8 +90,4 @@ button[type="submit"], button[type="button"] {
 
 button[type="button"] {
   background-color: #6c757d;
-}
-
-.submenu {
-  padding-left: 20px;
 }

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,42 +8,12 @@
     <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
-    <div id="dropdown">
-        <button class="dropdown-toggle">
-            <span>Menu</span>
-            <i class="fa-solid fa-caret-down"></i>
-        </button>
-        <ul class="menu">
-            <li class="menu-item"><a href="#">Italian</a></li>
-            <li class="menu-item"><a href="#">Chinese</a></li>
-            <li class="menu-item dropdown">
-                <a href="#" class="submenu-toggle">
-                    <span>Healthy Options</span>
-                    <i class="fa-solid fa-caret-right"></i>
-                </a>
-                <ul class="submenu">
-                    <li class="submenu-item"><a href="#">Vegetarian</a></li>
-                </ul>
-            </li>
-            <li class="menu-item"><a href="#">Mexican</a></li>
-            <li class="menu-item dropdown">
-                <a href="#" class="submenu-toggle">
-                    <span>Specials</span>
-                    <i class="fa-solid fa-caret-right"></i>
-                </a>
-                <ul class="submenu">
-
-                </ul>
-            </li>
-        </ul>
-    </div>
     <div class="form-container">
       <div class="logo">
           <img src="logo.png" alt="Logo">
       </div>
-      <h1>A Journey of Tastes</h1>
+      <h1>A Culinary Odyssey</h1>
       <p>Discover Your Perfect Meal</p>
         <form>
             <div class="form-group">
@@ -60,15 +29,30 @@
                 <input type="number" id="age" name="age" required>
             </div>
             <div class="form-group">
-                <label>Type of Cuisine:</label>
-                <input type="checkbox" id="cuisine-italian" name="cuisine-type" value="Italian">
-                <label for="cuisine-italian">Italian</label>
-                <input type="checkbox" id="cuisine-chinese" name="cuisine-type" value="Chinese">
-                <label for="cuisine-chinese">Chinese</label>
-                <input type="checkbox" id="cuisine-vegetarian" name="cuisine-type" value="Vegetarian">
-                <label for="cuisine-vegetarian">Vegetarian</label>
-                <input type="checkbox" id="cuisine-mexican" name="cuisine-type" value="Mexican">
-                <label for="cuisine-mexican">Mexican</label>
+                <div id="dropdown">
+                    <button class="dropdown-toggle">
+                        <span>Type of Cuisine</span>
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <input type="checkbox" id="cuisine-italian" name="cuisine-type" value="Italian">
+                            <label for="cuisine-italian">Italian</label>
+                        </li>
+                        <li class="menu-item">
+                            <input type="checkbox" id="cuisine-chinese" name="cuisine-type" value="Chinese">
+                            <label for="cuisine-chinese">Chinese</label>
+                        </li>
+                        <li class="menu-item">
+                            <input type="checkbox" id="cuisine-vegetarian" name="cuisine-type" value="Vegetarian">
+                            <label for="cuisine-vegetarian">Vegetarian</label>
+                        </li>
+                        <li class="menu-item">
+                            <input type="checkbox" id="cuisine-mexican" name="cuisine-type" value="Mexican">
+                            <label for="cuisine-mexican">Mexican</label>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="form-group">
                 <label for="payment">Mode of Payment:</label>
@@ -94,5 +78,4 @@
     </div>
     
 </body>
-
 </html>
