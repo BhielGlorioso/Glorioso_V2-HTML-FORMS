@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+#dropdown .dropdown-toggle {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#dropdown .menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+#dropdown .menu-item {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+#dropdown .menu-item a {
+  display: block;
+  padding: 10px 15px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.form-container {
+  background-color: #add8e6;
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.form-container h1, .form-container p {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="radio"],
+.form-group input[type="checkbox"] {
+  margin: 10px 5px;
+}
+
+button[type="submit"], button[type="button"] {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  margin-right: 10px;
+}
+
+button[type="button"] {
+  background-color: #6c757d;
+}
+
+.submenu {
+  padding-left: 20px;
+}
